@@ -6,12 +6,18 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "story:dev": "histoire dev",
+    "story:build": "histoire build",
+    "story:preview": "histoire preview"
   },
   "devDependencies": {
+    "@histoire/plugin-nuxt": "^0.16.1",
+    "@histoire/plugin-vue": "^0.16.1",
     "@nuxtjs/style-resources": "^1.2.1",
     "@types/node": "^18",
     "autoprefixer": "^10.4.14",
+    "histoire": "^0.16.1",
     "nuxt": "^3.4.3",
     "postcss": "^8.4.23",
     "prettier": "2.8.8",
