@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "global";
+
+@include font-face("Jost", '@/assets/fonts/Jost/Jost-Regular', 400, normal);
+@include font-face("Jost", '@/assets/fonts/Jost/Jost-Medium', 500, mormal);
+@include font-face("Cormorant", '@/assets/fonts/Cormorant/Cormorant-Regular', 400, mormal);
+@include font-face("Cormorant", '@/assets/fonts/Cormorant/Cormorant-Medium', 500, mormal);
+
+
+body, html {
+  font-family: Jost, Arial sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
