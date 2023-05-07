@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {import("tailwindcss").Config} */
 module.exports = {
   content: [
     "./components/**/*.{js,vue,ts}",
@@ -6,7 +6,7 @@ module.exports = {
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
-    "./app.vue",
+    "./app.vue"
   ],
   theme: {
     colors: {
@@ -16,10 +16,8 @@ module.exports = {
       "blue-dark": "#0F303F",
       "blue-medium": "#254A5A",
       "beige-dark": "#CEC6C4",
-      "beige-medium": "#EAE9E8",
-    },
-    extend: {},
-  },
-  plugins: [],
-}
+      "beige-medium": "#EAE9E8"
+    }
+  }
+};
 
